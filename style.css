@@ -5,10 +5,10 @@ body{
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     height: 5311px;
-    width: 90%;
+    width: 1300px;
     border-radius: 0px;
     border: 2px solid red;
-    
+    background-color: #F8FBFB;
 }
 .navbar{
     height: 65px;
@@ -20,7 +20,7 @@ body{
     line-height: 39px;
     text-transform: capitalize;
     color: #122025;
-    margin: 0 270px 0 55px;
+    margin: 0 270px 0 98px;
     vertical-align: middle;
 }
 .links{
@@ -50,8 +50,7 @@ margin: auto 0 0 18px;
     background-color: red;
     width: 300px;
     height: 150px;
-    /*display: flex;*/
-    margin-right: 30px;
+    margin-right: 155px;
     margin-top: 40px;
     
 }
@@ -60,7 +59,7 @@ font-size: 34px;
 font-weight: 500;
 line-height: 39px;
 float: left;
-margin: 60px 0 0 55px;
+margin: 60px 0 0 98px;
 }
 .yellow{
     font-weight: 800;
@@ -115,32 +114,33 @@ margin-top: 22px;
 
 
 
-.two{
-    height: 900px;
+.section-two{
+    height: 1100px;
     border-bottom: 2px solid green;
+    text-align: center;
 }
 .bod2-head{
     font-weight: 600;
-font-size: 32px;
-line-height: 54px;
-text-align: center;
-color: #122025;
+    font-size: 32px;
+    line-height: 54px;
+    text-align: center;
+    color: #122025;
 }
 .mid{
     font-weight: 500;
-font-size: 18px;
-line-height: 29px;
-text-align: center;
-color: #58666B;
-margin-bottom: 45px;
-margin-top: 24px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #58666B;
+    margin-bottom: 45px;
+    margin-top: 24px;
 }
 .grp-link2{
     margin: auto;
     text-align: center;
 }
 .link2{
-    margin-right: 24px;
+    margin-right: 30px;
     font-size: 15px;
     text-decoration: none;
     color: #1C2A2F;
@@ -150,4 +150,179 @@ margin-top: 24px;
     border-radius: 20px;
     padding: 8px 10px;
 }
-.obj-background
+.sales-obj{
+    margin: 30px auto;
+    text-align: center;
+}
+.table1{
+    margin: auto;
+}
+.table1, .table1 td {
+    border-spacing: 12px;
+}
+.obj-background{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 0px 10px 2px;
+    border: 1px solid black;
+}
+.img1{
+    margin: 50px auto 22px auto;
+}
+.img2{
+    margin: 0 auto 13px auto; 
+}
+.img3{
+    margin: 65px auto 35px auto;
+}
+.img4{
+    margin: 30px auto 22px auto;
+}
+.img5{
+    margin: 30px auto;
+}
+.img6{
+    margin: 30px auto 20px auto;
+}
+.img7{
+    margin: 33px auto;
+}
+.img8{
+    margin: 25px auto;
+}
+.img9{
+    margin: 35px auto 42px auto;
+}
+.img10{
+    margin: 30px auto 19px auto;
+}
+.furniture-head{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 0 0 5px;
+    text-align: left;
+}
+.price{
+    color: #A8B6BB;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 4px 0 10px 5px;
+    text-align: left;
+}
+.lttl-grn{
+    color: #1FB890;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.stars{
+    float: right;
+    margin-right: 10px;
+    margin-left: 12px;
+
+}
+.circle{
+    float: left;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.small{
+    vertical-align: middle;
+}
+.see-more{
+    font-size: 17px;
+    background-color: #1C333B;
+    border-radius: 25px;
+    padding: 6px 13px;
+    color: white;
+    font-weight: 600;
+    margin:  auto;
+    text-align: center;
+    transition: background-color 0.8s;
+}
+.see-more:hover, .know-more:hover{
+    background-color: transparent;
+    border: 2px solid #1C333B;
+    color: #1C333B;
+    cursor: pointer;
+}
+
+
+.section-three{
+    height: 890px;
+}
+.three-header{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.three-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: left;
+    row-gap: 45px;
+    column-gap: 120px;
+    margin: 30px 100px 8px 98px;
+}
+.head{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+.details{
+    font-size: 20px;
+    font-weight: 500;
+}
+.serviveImg{
+    float: right;
+    margin-bottom: 18px;
+}
+.know-more{
+    font-size: 17px;
+    background-color: #1C333B;
+    border-radius: 25px;
+    padding: 6px 13px;
+    color: white;
+    font-weight: 600; 
+    margin: auto 0 50px 98px;
+    transition: background-color 0.8s;
+}
+.three-customer{
+    background-color: white;
+    width: 100%;
+    height: 290px;
+}
+.customer-say{
+    float: left;
+}
+.customer-head{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 10px 0 15px 98px;
+}
+.customer-say p{
+    margin-left: 98px;
+}
+.customer-details{
+    margin: 0 0 15px 0;
+    font-size: 15px;
+}
+.starz{
+    margin-left: 98px;
+}
+.customer{
+    float: right;
+    margin: 38px 125px 0 0;
+}
+.name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.position{
+    font-size: 13px;
+}
