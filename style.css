@@ -1,15 +1,20 @@
 *{
     margin: 0;
 }
-@media only screen and (max-width: 1299px){
+@media only screen and (max-width: 1250px){
+    .whole{display: none;}
     .media {
         display: block;
         font-size: 30px;
         margin: auto;
         text-align: center;
         color: black;
-}
+    }}
+
+
 @media only screen and (min-width: 1300px){
+    .media{display: none;}
+    .whole{display: block;}
 body{
     margin: auto;
     font-family: 'Montserrat', sans-serif;
@@ -389,4 +394,4 @@ margin-top: 22px;
 section-six img{
     width: 100%;
     height: 100px;
-}
+    }}
