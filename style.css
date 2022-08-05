@@ -1,6 +1,15 @@
 *{
     margin: 0;
 }
+@media only screen and (max-width: 1299px){
+    .media {
+        display: block;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+        color: black;
+}
+@media only screen and (min-width: 1300px){
 body{
     margin: auto;
     font-family: 'Montserrat', sans-serif;
